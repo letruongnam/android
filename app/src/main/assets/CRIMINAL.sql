@@ -1,0 +1,7 @@
+PRAGMA foreign_keys = false;
+INSERT INTO "CRIMINAL" VALUES (1, 'Đi ra ngoài không đóng cửa phòng', 'Việc đi ra ngoài không đóng cửa phòng có thể khiến cho tình trạng mất cắp trở nên phổ biến ở nhiều phòng học trên lớp. Việc này có thể bị kiểm điểm trước lớp và hạ hạnh kiểm của học sinh', 'mocua', 1, '2020/1/1');
+INSERT INTO "CRIMINAL" VALUES (2, 'Ra khỏi phòng không tắt điện', 'Việc này có thể làm hư hỏng và giảm hiệu năng của các thiết bị chiếu sáng trong phòng học, ngoài ra còn gây ra việc hao phí một lượng điện năng đáng kể', 'hai', 1, '2020/12/12');
+INSERT INTO "CRIMINAL" VALUES (3, 'Đi học không đúng giờ ', 'Việc đi học không đúng giờ có thể khiến ảnh hưởng đến thành tích học tập của mỗi cá nhân, đồng thời có thể gây xao nhãng, mất tập trung đối với các bạn trong lớp', 'ba', 1, '2021/31/12');
+INSERT INTO "CRIMINAL" VALUES (4, 'Không dọn dẹp vệ sinh trước khi vào học', 'Việc này khiến cho lớp học bẩn thỉu. Ảnh hưởng xấu đến khả năng học tập của các bạn, thầy cô', 'bon', 1, '2021/12/12');
+INSERT INTO "CRIMINAL" VALUES (5, 'Đi xe máy đến trường', 'Việc đi xe máy đến trường ở lứa tuổi học sinh, chưa đủ khả năng điều khiển phương tiện gây ra nguy hiểm cho học sinh đồng thời với nhiều người xung quanh', 'nam', 0, '2020/12/12');
+INSERT INTO "CRIMINAL" VALUES (6, 'Không mặc đúng trang phục khi tới lớp', 'Việc không mang đúng đồng phục khiến cho học sinh không hòa đồng, đoàn kết với tập thể. Việc này có thể bị hạ hành kiểm tùy theo mức độ hành vi', 'sau', 0, '2020/12/12');

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriminalDetailFragment"
+    android:background="@android:color/holo_blue_bright">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+      <ImageView
+          android:id="@+id/ImageDetail"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="2"
+
+          />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/TextDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:text="Click on fragment list to show detail"
+
+           />
+            <TextView
+                android:id="@+id/Warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is text to show warning"
+                android:layout_below="@+id/TextDetail"
+                android:background="@android:color/background_light"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
